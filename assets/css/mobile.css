@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+/* PT Sans */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=PT+Sans&display=swap');
+
+
+:root {
+    --black: #181818;
+    --white: #ffffff;
+    --gray: #eeeeee;
+    --gray-light: #fbfbfb;
+    --font-body: 'PT Sans', sans-serif;
+    --font-title: 'Libre Baskerville', serif;
+}
+
+/* main */
+.img-responsive-one{
+    background: center no-repeat url('../img/projects/project_mobile_1.jpg');
+    background-size: cover;
+    height: 450px;
+    width: 350px;
+}
+
+.img-responsive-two{
+    background: center no-repeat url('../img/projects/project_mobile_3.jpg');
+    background-size: cover;
+    height: 450px;
+    width: 350px;
+}
+
+.img-responsive-tree{
+    background: center no-repeat url('../img/unicorn-news-paper.svg');
+    background-size: cover;
+    height: 450px;
+    width: 350px;
+}
