@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-
-/* PT Sans */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=PT+Sans&display=swap');
-
 
 :root {
     --black: #181818;
@@ -13,24 +9,118 @@
     --font-title: 'Libre Baskerville', serif;
 }
 
+body {
+    font-family: var(--font-body);
+    font-size: 16px;
+    background-color: var(--gray-light);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-title);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* header */
+.header-top {
+    /* background-color: orange; */
+    text-align: center;
+}
+
+.header-top nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header section {
+    padding: 50px 0;
+}
+
+
+.header-top nav .bi-list {
+    font-size: 30px;
+    color: var(--black);
+}
+
+.header-top nav ul {
+    display: none;
+}
+
+.header-top section h1 {
+    background-color: white;
+    padding: 1.5rem;
+}
+
+header section img {
+    width: 90%;
+    margin: 3.9rem 0;
+}
+
 /* main */
-.img-responsive-one{
-    background: center no-repeat url('../img/projects/project_mobile_1.jpg');
-    background-size: cover;
-    height: 450px;
-    width: 350px;
+
+.img-main{
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    object-fit: cover;
 }
 
-.img-responsive-two{
-    background: center no-repeat url('../img/projects/project_mobile_3.jpg');
-    background-size: cover;
-    height: 450px;
-    width: 350px;
+.btn-light{
+    border: 1px solid var(--black);
+    text-align: center;
+    border-radius: 3px;
+    color: var(--black);
+    padding: 12px 28px;
+    display: block;
+    text-decoration: none;
+    margin: 2.5rem auto;
 }
 
-.img-responsive-tree{
-    background: center no-repeat url('../img/unicorn-news-paper.svg');
-    background-size: cover;
-    height: 450px;
-    width: 350px;
+.newsletter{
+    background-color: var(--gray);
+    /* padding: 20px; */
+    margin-top: 80px;
+}
+
+.newsletter img{
+    width: 100%;
+}
+
+.newsletter h2{
+    font-size: 1.5rem;
+    margin: 50px 0;
+    width: 80%;
+}
+
+.btn-dark{
+    border: 1px solid var(--black);
+    text-align: center;
+    border-radius: 3px;
+    color: var(--white);
+    padding: 12px 28px;
+    display: block;
+    text-decoration: none;
+    margin: 2.5rem auto;
+    background-color: var(--black);
+}
+
+/* footer */
+
+.container-footer ul{
+    text-align: center;
+    list-style: none;
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container-footer a {
+    text-align: center;
+    color: var(--black);
+    border: 1px solid var(--gray);
+    padding: 0.8rem;
 }

@@ -17,19 +17,22 @@
 <body>
 
     <!-- Header -->
-    <header>
+    <header class="header-top container">
         <nav>
             <!-- Logo -->
             <a href="./index.html">
-                <img src="./assets/img/logo.svg" alt="logo" />
+                <img class="logo" src="./assets/img/logo.svg" alt="logo" />
             </a>
 
-            <ul>
-                <li><a href="#!">Branding</a></li>
-                <li><a href="#!">Web Design</a></li>
-                <li><a href="#!">Agency</a></li>
-                <li><a href="#!">Request</a></li>
-            </ul>
+            <!-- mobile list -->
+            <a href="#!"><i class="bi bi-list"></i></button>
+
+                <ul>
+                    <li><a href="#!">Branding</a></li>
+                    <li><a href="#!">Web Design</a></li>
+                    <li><a href="#!">Agency</a></li>
+                    <li><a href="#!">Request</a></li>
+                </ul>
         </nav>
 
         <!-- Description -->
@@ -42,40 +45,56 @@
     </header>
 
     <!-- main -->
-    <main>
-        <section class="img-responsive-one">
+    <main class="container">
+        <section>
+            <img class="img-main" src="./assets/img/projects/project_mobile_1.jpg" alt="Project mobile #1" />
             <p>
                 Branding for a fintech company based on Japanese technique Kumiko highlighting the flexibility and
                 craftsmenship of CMA
             </p>
         </section>
 
-        <section class="img-responsive-two">
+        <section>
+            <img class="img-main" src="./assets/img/projects/project_mobile_3.jpg" alt="Project mobile #3" />
             <p>
                 Showing heart and soul behing the VC fund for consumer technologies with references Le Petit Prince
             </p>
         </section>
 
-        <a class="btn-read-them" href="#!">Read them all</a>
+        <!-- Bouton -->
 
-        <section class="img-responsive-tree">
-            <div>
-                <h2>Sounds good? Hit us up</h2>
-                <a class="btn-send-request" href="#!">Send request</a>
-            </div>
-        </section>
+        <a class="btn-light" href="#!">Read them all</a>
+
+        <!-- newsletter -->
+        <div class="newsletter">
+            <img src="./assets/img/unicorn-news-paper.svg" alt="Unicorn News Paper" />
+            <h2>Sounds good? Hit us up</h2>
+            <a class="btn-dark" href="#!">Send request</a>
+        </div>
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="container">
         <div class="container-footer">
             <ul>
-                <li><i class="bi bi-facebook"></i></li>
-                <li><i class="bi bi-linkedin"></i></li>
-                <li><i class="bi bi-twitter"></i></li>
-                <li><i class="bi bi-instagram"></i></li>
-                <li><i class="bi bi-github"></i></li>
-                <li><i class="bi bi-google"></i></li>
+                <li><a href="#!">
+                        <i class="bi bi-facebook"></i>
+                    </a></li>
+                <li><a href="#!">
+                        <i class="bi bi-linkedin"></i>
+                    </a></li>
+                <li><a href="#!">
+                        <i class="bi bi-instagram"></i>
+                    </a></li>
+                <li><a href="#!">
+                        <i class="bi bi-twitter"></i>
+                    </a></li>
+                <li><a href="#!">
+                        <i class="bi bi-github"></i>
+                    </a></li>
+                <li><a href="#!">
+                        <i class="bi bi-google"></i>
+                    </a></li>
             </ul>
         </div>
     </footer>
