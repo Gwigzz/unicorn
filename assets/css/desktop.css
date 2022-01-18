@@ -75,4 +75,17 @@
         width: 50%;
     }
 
+    /* footer */
+    .container-footer{
+        margin-bottom: 0.3rem;
+    }
+    .container-footer ul{
+        display: flex;
+        justify-content: right;
+    }
+
+    .container-footer ul a {
+        border: none;
+    }
+
 }
