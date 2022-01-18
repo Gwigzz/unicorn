@@ -1,5 +1,6 @@
 /* Activation de cette feuille CSS si l'écran fait au minimum 1200px */
 @media screen and (min-width: 1200px) {
+
     /* cache le menu burger */
     .header-top nav .bi-list {
         display: none;
@@ -18,20 +19,59 @@
         color: var(--black);
     }
 
-    .container{
+    .container {
         width: 70%;
     }
 
     /* header */
-    .header-top section h1{
-       font-size: 1.4rem;
+    .header-top section h1 {
+        font-size: 1.4rem;
     }
 
     .header-top section p {
         margin-bottom: 150px;
     }
 
-    .header-top section img{
+    .header-top section img {
+        width: 50%;
+    }
+
+    /* main */
+    main section {
+        position: relative;
+    }
+
+    main section p {
+        font-size: 1.1rem;
+        position: absolute;
+        width: 35%;
+        bottom: 20px;
+        left: 20px;
+    }
+
+    /* btn */
+    .btn-light {
+        display: none;
+    }
+
+    /* newsletter */
+    .newsletter {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 40px;
+        margin-bottom: 2.5rem;
+    }
+
+    .newsletter h2 {
+        font-size: 3rem;
+    }
+
+    .btn-dark {
+        display: inline;
+    }
+
+    .newsletter img{
         width: 50%;
     }
 
